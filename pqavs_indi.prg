@@ -4,12 +4,12 @@ set color to g+/
 set century on
 set date to british
 
-@ 1,0 say "------------------------------------------------------------------------"
-@ 2,0 say "pqavs_indi.exe - versao alfa - 18/08/2025                               " 
-@ 3,0 say "Calcula alguns dos indicadores referenciados no PQAVS.                  "
-@ 4,0 say "Sintaxe: [codigo IBGE do municipio com 6 digitos] [codigo do indicador] "
-@ 5,0 say "Exemplo: pqavs_indi.exe 521523 13                                       "
-@ 6,0 say "------------------------------------------------------------------------"
+@ 1,0 say "-------------------------------------------------------------------------------"
+@ 2,0 say "pqavs_indi.exe - versao beta - 19/08/2025                                      " 
+@ 3,0 say "Calcula alguns dos indicadores referenciados no PQAVS.                         "
+@ 4,0 say "Sintaxe: [codigo IBGE do municipio com 6 digitos] [codigo do indicador] --auto "
+@ 5,0 say "Exemplo: pqavs_indi.exe 521523 13                                              "
+@ 6,0 say "-------------------------------------------------------------------------------"
 
 cArg1 := alltrim ( HB_ArgV ( 1 ) )
 cArg2 := alltrim ( HB_ArgV ( 2 ) )
@@ -96,17 +96,17 @@ close
 
 @ 13,0 say "Ajustando arquivos para calcular proporcao de ocupacao..."
 use "c:\pqavs_indi\tmp\acbionet.dbf"
-delete for ( empty( id_ocupa_n ) = .T. ) .or. ( id_ocupa_n = "XXX" )
+delete for ( empty( id_ocupa_n ) = .T. ) .or. ( id_ocupa_n = "XXX" ) .or. ( id_ocupa_n = "000000" )
 pack
 close
 
 use "c:\pqavs_indi\tmp\acgranet.dbf"
-delete for ( empty( id_ocupa_n ) = .T. ) .or. ( id_ocupa_n = "XXX" )
+delete for ( empty( id_ocupa_n ) = .T. ) .or. ( id_ocupa_n = "XXX" ) .or. ( id_ocupa_n = "000000" )
 pack
 close
 
 use "c:\pqavs_indi\tmp\iexognet.dbf"
-delete for ( empty( id_ocupa_n ) = .T. ) .or. ( id_ocupa_n = "XXX" )
+delete for ( empty( id_ocupa_n ) = .T. ) .or. ( id_ocupa_n = "XXX" ) .or. ( id_ocupa_n = "000000" )
 pack
 close
 
@@ -181,7 +181,26 @@ set color to w+/
 @ 24,0 say "Indicador:" + alltrim (str ( nProporcao3 ) ) + "%"
 set color to g+/
 
+* Cria tabela com os dados dos municipios incluidos no arquivo 'list_muns.txt" criado pelo usuario.
+aStruct := { { "cod_mun","C",6,0 }, ;
+           { "nomemun","C",70,0 }}
+			 dbcreate ("c:\pqavs_indi\set\list_muns.dbf", aStruct)
 
+use "c:\pqavs_indi\set\list_muns.dbf"
+append from "c:\pqavs_indi\set\list_muns.txt" delimited with '"'
+close			 		 
+			 
+aStruct2 := { { "cod_mun","C",6,0 }, ;
+           { "nomemun","C",70,0 }, ;
+           { "prop1","N",3,2 }, ;
+           { "prop2","N",3,2 }, ;
+           { "indic","N",3,2 }}
+			 dbcreate ("c:\pqavs_indi\tmp\indicador_13.dbf", aStruct2)
+					 
+*use "c:\pqavs_indi\set\list_muns.dbf"
+*locate for 
+					 
+					 
 endif
 
 return nil
