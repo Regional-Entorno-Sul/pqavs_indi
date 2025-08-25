@@ -38,6 +38,7 @@ Depois pressione a tecla "ENTER" e aguarde o resultado do processamento.
 
 ![x](/extra/prompt2.jpg)  
 
+A seta em vermelho indica o resultado final do indicador escolhido pelo usuário.  
 
 
 
