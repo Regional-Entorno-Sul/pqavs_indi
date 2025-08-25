@@ -23,6 +23,11 @@ Ao final do processo surgirá uma mensagem informando que os arquivos selecionad
 Feche o módulo de exportação e o SINAN NET;  
 Abra o Windows Explorer" e procure a pasta "SinanNet" no disco local C e em seguida, entre na subpasta "BaseDBF";  
 
+![x](/extra/local2.jpg)  
+
+  
+  
+
 
 
 
