@@ -21,7 +21,7 @@ Escolher o período (data inicial e data final). Importante verificar se o perí
 Clique no botão "Exportar";  
 Ao final do processo surgirá uma mensagem informando que os arquivos selecionados foram processados;  
 Feche o módulo de exportação e o SINAN NET;  
-Abra o Windows Explorer" e procure a pasta "SinanNet" no disco local C e em seguida, entre na subpasta "BaseDBF";  
+Abra o "Windows Explorer" e procure a pasta "SinanNet" no disco local C e em seguida, entre na subpasta "BaseDBF";  
 
 ![x](/extra/local2.jpg)  
 
