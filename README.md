@@ -34,6 +34,51 @@ Utilizando o prompt de comando do Windows, acesse a pasta "pqavs_indi" e digite 
 
 ![x](/extra/prompt.jpg)  
 
+Depois pressione a tecla "ENTER" e aguarde o resultado do processamento.  
+
+![x](/extra/prompt2.jpg)  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 
 
