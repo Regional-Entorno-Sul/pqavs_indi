@@ -19,13 +19,16 @@ Selecionar para o indicador 13 as seguintes opções:
 Marcar a caixa de checagem "Exportar dados de identificação do paciente;  
 Escolher o período (data inicial e data final). Importante verificar se o período nos campos corresponde ao período que será utilizado para o cálculo do indicador do PQAVS, pois dias ou meses a mais ou a menos terá influência no cálculo e no resultado final do valor do indicador escolhido;  
 Clique no botão "Exportar";  
-Ao final do processo surgirá uma mensagem informando que os arquivos selecionados foram processados;  
+Ao final do processo surgirá uma mensagem informando que os arquivos selecionados foram processados. Clique em "OK" na mensagem;  
 Feche o módulo de exportação e o SINAN NET;  
 Abra o "Windows Explorer" e procure a pasta "SinanNet" no disco local C e em seguida, entre na subpasta "BaseDBF";  
 
 ![x](/extra/local2.jpg)  
 
 Copie os arquivos "IEXOGNET.DBF", "ACGRANET.DBF" e "ACBIONET.DBF". Dependendo de como o Windows Explorer do seu PC está configurado, a extensão DBF que aparece após o nome do arquivo pode não aparecer, mas isso não é um problema, copie os arquivos mesmo assim;  
+Acesse a pasta "pqavs_indi" no disco local C, entre na pasta "dbf" e depois na subpasta "indi_13".  Cole os arquivos copiados nessa última subpasta;  
+
+
 
   
 
