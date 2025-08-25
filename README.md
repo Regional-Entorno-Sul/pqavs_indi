@@ -30,7 +30,24 @@ Acesse a pasta "pqavs_indi" no disco local C, entre na subpasta "dbf" e depois n
 
 ![x](/extra/local3.jpg)  
 
+Utilizando o prompt de comando do Windows, acesse a pasta "pqavs_indi" e digite a linha de comando mostrada abaixo, substituindo o número "521250" pelo código IBGE do seu município.  
+
+![x](/extra/prompt.jpg)  
+
   
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
