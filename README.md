@@ -9,4 +9,13 @@ Uma vez realizado o download do arquivo, descompacte-o usando um descompactador 
 Após efetuado o processo de descompactação, o resultado será uma pasta com o nome "pqavs_indi";  
 Copiar e colar ou arrstar a pasta "pqavs_indi" para o disco local C;
 
-![x](/extra/local.jpg)
+![x](/extra/local.jpg)  
+
+No SINAN NET, acesse o módulo "Ferramentas" e depois o item "Exportação (DBF)";  
+Selecionar para o indicador 13 as seguintes opções:  
+"Z20.9 - Acidents de trabalho com exposição a material biológico";  
+"Y96 - Acidente de trabalho grave";  
+"T65.9 - Intoxicação exógena".  
+Marcar a caixa de checagem "Exportar dados de identificação do paciente;  
+Escolher o período (data inicial e data final). Importante verificar se o período nos campos corresponde ao período que será utilizado para o cálculo do indicador do PQAVS, pois dias ou meses a mais ou a menos terá influência no cálculo e no resultado final do valor do indicador escolhido.  
+
