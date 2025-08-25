@@ -9,4 +9,4 @@ Uma vez realizado o download do arquivo, descompacte-o usando um descompactador 
 Após efetuado o processo de descompactação, o resultado será uma pasta com o nome "pqavs_indi";  
 Copiar e colar ou arrstar a pasta "pqavs_indi" para o disco local C;
 
-
+![x](/extra/local.jpg)
