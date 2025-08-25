@@ -17,5 +17,19 @@ Selecionar para o indicador 13 as seguintes opções:
 "Y96 - Acidente de trabalho grave";  
 "T65.9 - Intoxicação exógena".  
 Marcar a caixa de checagem "Exportar dados de identificação do paciente;  
-Escolher o período (data inicial e data final). Importante verificar se o período nos campos corresponde ao período que será utilizado para o cálculo do indicador do PQAVS, pois dias ou meses a mais ou a menos terá influência no cálculo e no resultado final do valor do indicador escolhido.  
+Escolher o período (data inicial e data final). Importante verificar se o período nos campos corresponde ao período que será utilizado para o cálculo do indicador do PQAVS, pois dias ou meses a mais ou a menos terá influência no cálculo e no resultado final do valor do indicador escolhido;  
+Clique no botão "Exportar";  
+Ao final do processo surgirá uma mensagem informando que os arquivos selecionados foram processados;  
+Feche o módulo de exportação e o SINAN NET;  
+Abra o Winows Explorer" e procure a pasta "SinanNet" no disco local C e em seguida, entre na subpasta "BaseDBF";  
+
+
+
+
+
+
+
+
+
+
 
