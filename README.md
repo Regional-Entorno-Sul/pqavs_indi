@@ -6,4 +6,7 @@ Indicador 13 - Proporção de preenchimento dos campos "ocupação" e "atividade
 ## Como usar?  
 Faça o download da última versão disponível na área de releases;  
 Uma vez realizado o download do arquivo, descompacte-o usando um descompactador de arquivo para arquivos com extensão zip (WinRAR, Winzip, 7Zip, etc);  
+Após efetuado o processo de descompactação, o resultado será uma pasta com o nome "pqavs_indi";  
+Copiar e colar ou arrstar a pasta "pqavs_indi" para o disco local C;
+
 
