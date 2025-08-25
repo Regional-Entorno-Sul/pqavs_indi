@@ -4,4 +4,4 @@ Os indicadores gerados no "pqavs_indi" substitui algum dos indicadores gerados n
 Indicador 13 - Proporção de preenchimento dos campos "ocupação" e "atividade econômica (CNAE)" nas notificações de acidente de trabalho, acidente de trabalho com exposição a material biológico e intoxicação exógena relacionada ao trabalho segundo município de notificação.
 
 ## Como usar?  
-
+Faça o download da última versão disponível no 
