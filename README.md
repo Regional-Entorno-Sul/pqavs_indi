@@ -38,7 +38,7 @@ Depois pressione a tecla "ENTER" e aguarde o resultado do processamento.
 
 ![x](/extra/prompt2.jpg)  
 
-  
+
 
 
 
