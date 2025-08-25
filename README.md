@@ -26,7 +26,7 @@ Abra o "Windows Explorer" e procure a pasta "SinanNet" no disco local C e em seg
 ![x](/extra/local2.jpg)  
 
 Copie os arquivos "IEXOGNET.DBF", "ACGRANET.DBF" e "ACBIONET.DBF". Dependendo de como o Windows Explorer do seu PC está configurado, a extensão DBF que aparece após o nome do arquivo pode não aparecer, mas isso não é um problema, copie os arquivos mesmo assim;  
-Acesse a pasta "pqavs_indi" no disco local C, entre na pasta "dbf" e depois na subpasta "indi_13".  Cole os arquivos copiados nessa última subpasta;  
+Acesse a pasta "pqavs_indi" no disco local C, entre na subpasta "dbf" e depois na subpasta "indi_13".  Cole os arquivos copiados nessa última subpasta;  
 
 ![x](/extra/local3.jpg)  
 
